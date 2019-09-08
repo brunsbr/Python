@@ -1,0 +1,38 @@
+Loop
+
+while - comando de laços
+Executa um bloco de instruções enquanto uma condição for verdade.
+
+WHILE (condição) 
+  Bloco de Instruções
+
+EXEMPLO:
+Opção = "S"
+
+While (opção == "S"):
+  opção = input("Deseja continuar?")
+_______________________________________________________
+for i in range (0, -10, -2):
+ print(i)
+
+i =0
+
+while (i<10);
+ print (i)
+ i = i + 1
+_______________________________________________________
+for variável in range(start,stop,step): - comando de laços
+ * start e step são opcionais
+
+EX:
+for i in range (10):  | 0
+ print (i)                  | 1
+                              |9
+_______________________________________________________
+for i in range (3,7): | 3
+ print i                    | 4
+                              | 5
+                              | 6
+_______________________________________________________
+*Valores no range devem ser inteiros
+
